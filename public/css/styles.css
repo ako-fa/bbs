@@ -1,0 +1,186 @@
+/* 2em（行）x line-heightの1.2 */
+/* .line-2_title {
+  overflow: hidden;
+  height: 2.4em;
+} */
+
+/* 3em（行）x line-heightの1.5 */
+/* .line-3_content {
+  overflow: hidden;
+  height: 4.5em;
+} */
+
+body {
+    line-height: 2.1em;
+}
+
+.ranking-title {
+    font-size: 21px;
+    padding: 10px 0;
+    color: #fff;
+    background-color: #007bff;
+}
+
+.ranking-article-title {
+    line-height: 1.5em;
+}
+
+.error {
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+
+.rank-list {
+    position: relative;
+}
+
+.rank-number {
+    position: absolute;
+    font-size: 1.8em;
+    color: #007bff;
+}
+
+.rank-article-title {
+    font-size: 1.2em;
+    margin-left: 45px;
+}
+
+.rank-article-title:before {
+    content: "";
+    position: absolute;
+    left: 45px;
+    width: 1px;
+    height: 82%;
+    border-right: 1px solid #007bff;
+}
+
+.rank-article-meta {
+    margin-left: 45px;
+}
+
+/* ボタンクリック時の青枠を消す */
+.close:focus {
+    outline: none;
+}
+
+/* ボタンクリック時の青枠を消す */
+.page-link:focus {
+    outline: none;
+}
+
+h1.display-2 {
+    color: #fff;
+}
+
+.jumbotron {
+  background-image: url("http://bbs.localhost/storage/jumbotron/jumbotron2.jpg");
+  background-size: cover;
+  background-position: center 60%;
+}
+
+/* 画像表示 */
+.item {
+    width: 349px;
+    background: #ccc;
+}
+
+.thumbnail {
+    width: 100%;
+    height: 204px;
+}
+
+.inner {
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.image {
+    max-width: 100%;
+    max-height: 204px;
+    height: auto;
+    vertical-align: bottom;
+}
+
+@media (max-width: 1199px) {
+    /* 画像表示 */
+    .item {
+        width: 282px;
+        background: #ccc;
+    }
+
+    .thumbnail {
+        width: 100%;
+        height: 164px;
+    }
+
+    .inner {
+        width: 100%;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    .image {
+        max-width: 100%;
+        max-height: 164px;
+        height: auto;
+        vertical-align: bottom;
+    }
+
+}
+
+@media (max-width: 767px) {
+    /* 画像表示 */
+    .item {
+        width: 445px;
+        background: #ccc;
+    }
+
+    .thumbnail {
+        width: 100%;
+        height: 260px;
+    }
+
+    .inner {
+        width: 100%;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    .image {
+        max-width: 100%;
+        max-height: 260px;
+        height: auto;
+        vertical-align: bottom;
+    }
+
+}
+
+@media (max-width: 575px) {
+    /* 画像表示 */
+    .item {
+        width: 388px;
+        background: #ccc;
+    }
+
+    .thumbnail {
+        width: 100%;
+        height: 226px;
+    }
+
+    .inner {
+        width: 100%;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    .image {
+        max-width: 100%;
+        max-height: 226px;
+        height: auto;
+        vertical-align: bottom;
+    }
+
+}
